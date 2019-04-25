@@ -7,3 +7,11 @@ end
 def reverse_each_word(sentence)
 sentence.reverse.split.reverse.join(" ")
 end
+
+cool_nums = [1, 2, 3]
+ 
+def change_nums(nums)
+  nums.collect do |x| 
+    x + 1
+  end
+end
